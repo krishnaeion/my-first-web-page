@@ -1,0 +1,141 @@
+#navbar{
+    padding: 8px;
+    margin: 0;
+    /* width: 10px;  
+    height: 20px;   */
+}
+*{
+    font-size: 16px;
+}
+#logo{
+    width: 100px;
+    margin: 0;
+}
+    /* body {
+        background-color: #0c6878;
+        background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/732/wood-floor.jpg) no-repeat;
+        background-size: cover;
+        font-family: 'Signika', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    } */
+
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 3rem;
+}
+a:hover{
+  color: #000;
+}
+body{
+    text-align:justify;
+}
+#banner{
+    width: 100%;
+    object-fit: cover;
+    
+}
+#location{
+    color:aqua;
+    margin-bottom: 5px;
+}
+#first{
+        display: flex;
+        max-width: 800px;
+}
+#description{
+    width: 50%;
+    padding-right: 20px;
+    padding: 8px;
+}
+#teamimg{
+    border-radius: 10px;
+    width: 200%;
+    height: 300px;
+}
+h2{
+    text-align: center;
+}
+#job{
+    padding: 10px;
+}
+.jobrole{
+    margin-bottom: 4px;
+}
+.apply{
+    float:inline-end;
+}
+a{
+    text-decoration:dotted;
+}
+.foot{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#fooo{
+    background-color: antiquewhite;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+#job{
+   width: 100%;
+   border: 1px solid grey;
+   border-collapse: collapse;
+} 
+
+.jobh th{
+  /* background-color: beige; */
+  border: 1px solid grey;
+  padding: 8px;
+  background-color: aquamarine;
+}
+.jobd td{
+  /* background-color:aqua; */
+  border: 1px solid grey;
+  padding: 8px;
+}
+#job tr:nth-child(odd){
+   background-color: rgb(148, 39, 39);
+}
+/* you can also get test-style from google fonts you can select one font for header and other font family for body */
+
+#application{
+ max-width: 800px;
+ margin: 0 auto;
+padding: 40 8px;
+
+}
+
+#application1 label{
+   font-weight: 700;
+}
+#application input,select,textarea,button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: black;
+    border-color: aqua;
+}
+#application textarea{
+    width:auto;
+    font-family: sans-serif;
+}
+#kr{
+    border: solid 1px;
+}
+#application button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button :hover{
+    background-color:#ddd;
+}

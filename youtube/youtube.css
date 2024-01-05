@@ -1,0 +1,57 @@
+
+    .thumbnail {
+        width: 300px;
+       
+      }
+
+      .search-bar {
+        padding: 4px;
+        width: 100px;
+        border-width:4px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-left: 20px;
+        padding-left: 40px;
+
+    }
+    .video-title{
+        width: 300px;
+    }
+
+    .video-author,
+    .video-stats{
+
+    }
+     #header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 30px;
+    } 
+
+    #display{
+        display: inline-block;
+        margin-left: 30px;
+
+    }
+    .smallimg{
+        display: inline-block;
+        margin-top: 12px;
+        vertical-align: top;
+       background-color: black;
+       width: 50px;
+    }
+    #image{
+        width: 50px;
+        margin-top: 12%;
+        border-radius: 50px;
+    }
+    .text{
+        display: inline-block;
+        background-color:aqua ;
+         width: 245px;
+    }
+    #search{
+        
+    }
